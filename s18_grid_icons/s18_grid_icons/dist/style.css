@@ -1,0 +1,45 @@
+body{
+  
+  background-color: #191657;
+}
+h1{
+  text-align:center;
+}
+h1,p{
+  text-align:center;
+  color:#D4A017; 
+}
+
+.container{
+  display:flex;
+  background-color:black;
+  width:1098px;
+  margin: 20px auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container div{
+  background-color: blue;
+  margin: 10px;
+    padding: 20px;
+  font-size: 22px;
+  content: center;
+  
+  font-family: "Playfair Display", serif; 
+}
+
+footer{
+  background-color:black;
+  color: red;
+}
+
+footer, a{
+  color: green;
+}
+
+.social a{
+  color: red;
+  margin: 0 1rem;
+  font-size:1.2rem;
+}
